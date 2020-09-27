@@ -9,6 +9,7 @@ for(var key in ar){
 }
 }
 // Exercice 2    
+
 var multiplyList = document.createElement('ul');    
 for(var i = 1; i <= 10; i++){
   var listElement = document.createElement('li');
@@ -16,7 +17,7 @@ for(var i = 1; i <= 10; i++){
   multiplyList.appendChild(listElement);
   document.querySelector('body').appendChild(multiplyList);
 }
-
+//Il y a une erreur au niveau de la ligne 18 sur .appendChild(multiplyList) que je ne comprends pas 
 //Exercice 3
 while (true) {
   console.log();
